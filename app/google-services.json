@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1030096813649",
+    "firebase_url": "https://food-catering-app-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "food-catering-app",
+    "storage_bucket": "food-catering-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030096813649:android:0870afd41bcecc32200270",
+        "android_client_info": {
+          "package_name": "com.example.foodcateringapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030096813649-gh0pkjt59rmbp1pulcrf90qrbmh9gsh8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodcateringapp",
+            "certificate_hash": "f515f18ecb68339497e2a03ae53fbbfe3234fb5b"
+          }
+        },
+        {
+          "client_id": "1030096813649-0ad7vkuhdkb2h8bhk9u405usl5q773d8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGxM7_qOuTSt6uHgPNRFUMb3i0nt51YjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030096813649-0ad7vkuhdkb2h8bhk9u405usl5q773d8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/drawable/face_48px.xml" value="0.168" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.168" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.168" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/drawable/logout_48px.xml" value="0.168" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/drawable/order_approve_48px.xml" value="0.168" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/drawable/shopping_cart_48px.xml" value="0.168" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/drawable/side_nav_bar.xml" value="0.168" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/layout/activity_food_list.xml" value="0.27291666666666664" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/layout/activity_home.xml" value="0.24149659863945577" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/layout/activity_main.xml" value="0.19814814814814816" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/layout/app_bar_home.xml" value="0.1" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/layout/category_item.xml" value="0.2696629213483146" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/layout/content_home.xml" value="0.25" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/layout/food_item.xml" value="0.27291666666666664" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/layout/fragment_cart.xml" value="0.25885416666666666" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/layout/fragment_gallery.xml" value="0.12552083333333333" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/layout/fragment_menu.xml" value="0.26851851851851855" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/layout/fragment_order.xml" value="0.20052083333333334" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/layout/fragment_sign_out.xml" value="0.21458333333333332" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/layout/home_appbar.xml" value="0.27291666666666664" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/layout/nav_header_home.xml" value="0.27291666666666664" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/menu/activity_main_drawer.xml" value="0.5" />
+        <entry key="..\:/MateriKuliah/SKS Semester V/Pemrograman Aplikasi Mobile/Projects/UAS/app/src/main/res/menu/home.xml" value="0.27291666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

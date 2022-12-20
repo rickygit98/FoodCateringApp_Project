@@ -1,0 +1,114 @@
+{
+  "Users": {
+    "ni1ACNAanIgKVxwXzXWNupCidyS2": {
+      "email": "andi@gmail.com",
+      "name": "andi",
+      "password": "andi12345",
+      "phone": "089764352788"
+    }
+  },
+  "Category": {
+    "c1": {
+      "name": "Sea Food",
+      "image": "https://mobile-programming-api.000webhostapp.com/category/seafood_img.jpg"
+    },
+    "c2": {
+      "name": "Chinese Food",
+      "image": "https://mobile-programming-api.000webhostapp.com/category/chinesefood_img.jpg"
+    },
+    "c3": {
+      "name": "Western Food",
+      "image": "https://mobile-programming-api.000webhostapp.com/category/westernfood_img.jpg"
+    },
+    "c4": {
+      "name": "Vegetarian Food",
+      "image": "https://mobile-programming-api.000webhostapp.com/category/vegetarianfood_img.jpg"
+    },
+    "c5": {
+      "name": "Junk Food",
+      "image": "https://mobile-programming-api.000webhostapp.com/category/junkfood_img.jpg"
+    }
+  },
+  "Foods": {
+    "f1": {
+      "name": "Great Lobster",
+      "image": "https://mobile-programming-api.000webhostapp.com/foods/greatlobster.jpg",
+      "description": "Is a type of shellfish that is typically prepared by boiling or steaming. It can be eaten as a main course, enjoyed as a sandwich filler, or added to rich dishes like pasta, mashed potatoes, and eggs Benedict.",
+      "price": "500000",
+      "discount": "0",
+      "catId": "c1"
+    },
+    "f2": {
+      "name": "Golden Shrimp",
+      "image": "https://mobile-programming-api.000webhostapp.com/foods/goldenshrimp.jpg",
+      "description": "Golden shrimp is essentially griddle seared shrimp smothered with a mayonnaise like golden sauce.",
+      "price": "50000",
+      "discount": "0",
+      "catId": "c1"
+    },
+    "f3": {
+      "name": "Chinese Fried Rice",
+      "image": "https://mobile-programming-api.000webhostapp.com/foods/chinesefriedrice.jpg",
+      "description": "Fried rice is a dish of cooked rice that has been stir-fried in a wok or a frying pan and is usually mixed with other ingredients such as eggs, vegetables, seafood, or meat. It is often eaten by itself or as an accompaniment to another dish.",
+      "price": "20000",
+      "discount": "0",
+      "catId": "c2"
+    },
+    "f4": {
+      "name": "Koloke",
+      "image": "https://mobile-programming-api.000webhostapp.com/foods/koloke.jpg",
+      "description": "Koloke or kuluyuk chicken, is a chinese indonesian dish made from crispy chicken or fish seasoned with red sweet and sour sauce. popular as ayam asam manis.",
+      "price": "75000",
+      "discount": "0",
+      "catId": "c2"
+    },
+    "f5": {
+      "name": "Pizza",
+      "image": "https://mobile-programming-api.000webhostapp.com/foods/pizza.jpg",
+      "description": "Dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients, baked quickly—usually, in a commercial setting, using a wood-fired oven heated to a very high temperature—and served hot.",
+      "price": "100000",
+      "discount": "0",
+      "catId": "c3"
+    },
+    "f6": {
+      "name": "Beef Steak",
+      "image": "https://mobile-programming-api.000webhostapp.com/foods/beefsteak.jpg",
+      "description": "A beefsteak, often called just steak, is a flat cut of beef with parallel faces, usually cut perpendicular to the muscle fibers.",
+      "price": "200000",
+      "discount": "0",
+      "catId": "c3"
+    },
+    "f7": {
+      "name": "Pecel",
+      "image": "https://mobile-programming-api.000webhostapp.com/foods/pecel.jpg",
+      "description": "Pecel is a traditional Javanese salad with peanut sauce, usually eaten with carbs (steamed rice, lontong or ketupat).",
+      "price": "10000",
+      "discount": "0",
+      "catId": "c4"
+    },
+    "f8": {
+      "name": "Hamburger",
+      "image": "https://mobile-programming-api.000webhostapp.com/foods/hamburger.jpg",
+      "description": "A hamburger, or simply burger, is a food consisting of fillings—usually a patty of ground meat, typically beef—placed inside a sliced bun or bread roll.",
+      "price": "50000",
+      "discount": "0",
+      "catId": "c5"
+    },
+    "f9": {
+      "name": "French Fries",
+      "image": "https://mobile-programming-api.000webhostapp.com/foods/frenchfries.jpg",
+      "description": "french fries, also called chips, finger chips, fries, or French pommes frites, side dish or snack typically made from deep-fried potatoes that have been cut into various shapes, especially thin strips. Fries are often salted and served with other items, including ketchup, mayonnaise, or vinegar.",
+      "price": "25000",
+      "discount": "0",
+      "catId": "c5"
+    },
+    "f10": {
+      "name": "Taco",
+      "image": "https://mobile-programming-api.000webhostapp.com/foods/taco.jpg",
+      "description": "A taco is a traditional Mexican food consisting of a small hand-sized corn- or wheat-based tortilla topped with a filling",
+      "price": "20000",
+      "discount": "0",
+      "catId": "c4"
+    }
+  }
+}
