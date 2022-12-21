@@ -8,11 +8,16 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.foodcateringapp.HomeActivity;
 import com.example.foodcateringapp.Interface.CategoryItemClickListener;
 import com.example.foodcateringapp.Model.Category;
 import com.example.foodcateringapp.R;
+import com.example.foodcateringapp.ui.food.FoodFragment;
+import com.example.foodcateringapp.ui.home.HomeFragment;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.squareup.picasso.Picasso;
@@ -37,8 +42,13 @@ public class CategoryAdapter extends FirebaseRecyclerAdapter<Category,CategoryAd
             @Override
             public void onClick(View view, int position, boolean isLongClick) {
 
-                Toast.makeText(view.getContext(), " "+clickItem.getName(),Toast.LENGTH_SHORT).show();
-
+                Toast.makeText(view.getContext(), ""+clickItem.getName(),Toast.LENGTH_SHORT).show();
+                AppCompatActivity activity = (AppCompatActivity) view.getContext();
+                FoodFragment foodFragment = new FoodFragment();
+                activity.getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.homeFrag, foodFragment)
+                        .addToBackStack(null)
+                        .commit();
             }
         });
     }
