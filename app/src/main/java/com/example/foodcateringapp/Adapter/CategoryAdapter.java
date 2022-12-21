@@ -45,7 +45,11 @@ public class CategoryAdapter extends FirebaseRecyclerAdapter<Category,CategoryAd
                 Toast.makeText(view.getContext(), ""+clickItem.getName(),Toast.LENGTH_SHORT).show();
                 AppCompatActivity activity = (AppCompatActivity) view.getContext();
                 FoodFragment foodFragment = new FoodFragment();
+                HomeFragment homeFragment = new HomeFragment();
+
+
                 activity.getSupportFragmentManager().beginTransaction()
+                        .hide(homeFragment)
                         .replace(R.id.homeFrag, foodFragment)
                         .addToBackStack(null)
                         .commit();

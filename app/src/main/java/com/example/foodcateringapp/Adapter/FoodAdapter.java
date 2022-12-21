@@ -24,9 +24,9 @@ public class FoodAdapter extends FirebaseRecyclerAdapter<Food,FoodAdapter.FoodVi
 
     @Override
     protected void onBindViewHolder(@NonNull FoodViewHolder holder, int position, @NonNull Food model) {
-        Picasso.get().load(model.getImage()).fit().centerCrop().placeholder(R.drawable.alt_img_category).into(holder.imgCategory);
+        Picasso.get().load(model.getImage()).fit().centerCrop().placeholder(R.drawable.alt_img_category).into(holder.imgFood);
 
-        holder.txtCategory.setText(model.getName());
+        holder.txtFood.setText(model.getName());
 
 
         final Food clickItem = model;
@@ -48,16 +48,16 @@ public class FoodAdapter extends FirebaseRecyclerAdapter<Food,FoodAdapter.FoodVi
 
     //Our View Holder
     public class FoodViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        public TextView txtCategory;
-        public ImageView imgCategory;
+        public TextView txtFood;
+        public ImageView imgFood;
 
         private FoodItemClickListener foodItemClickListener;
 
         public FoodViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            txtCategory = (TextView) itemView.findViewById(R.id.txtCategory);
-            imgCategory = (ImageView) itemView.findViewById(R.id.imgCategory);
+            txtFood = (TextView) itemView.findViewById(R.id.nameFood);
+            imgFood = (ImageView) itemView.findViewById(R.id.imgFood);
 
             itemView.setOnClickListener(this);
         }
