@@ -15,8 +15,6 @@ import com.example.foodcateringapp.Model.Category;
 import com.example.foodcateringapp.R;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
-import com.google.firebase.storage.FirebaseStorage;
-import com.google.firebase.storage.StorageReference;
 import com.squareup.picasso.Picasso;
 
 public class CategoryAdapter extends FirebaseRecyclerAdapter<Category,CategoryAdapter.CategoryViewHolder> {
@@ -38,6 +36,8 @@ public class CategoryAdapter extends FirebaseRecyclerAdapter<Category,CategoryAd
         holder.setCategoryItemClickListener(new CategoryItemClickListener() {
             @Override
             public void onClick(View view, int position, boolean isLongClick) {
+
+                Toast.makeText(view.getContext(), " "+clickItem.getName(),Toast.LENGTH_SHORT).show();
 
             }
         });

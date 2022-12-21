@@ -53,5 +53,6 @@
     <color name="md_theme_dark_inverseSurface">#E6E1E5</color>
     <color name="md_theme_dark_inverseOnSurface">#313033</color>
     <color name="md_theme_dark_inversePrimary">#6750A4</color>
-    <color name="md_overlay">#BF1C1B1F</color>
+    <color name="md_overlay">#A42D2B33</color>
+    <color name="md_opaque">#A689888E</color>
 </resources>

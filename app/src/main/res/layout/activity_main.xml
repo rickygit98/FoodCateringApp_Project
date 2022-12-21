@@ -6,28 +6,50 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:tint="@color/md_overlay"
+        android:src="@drawable/bg"
+        tools:ignore="UseAppTint" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="64dp"
         >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Catering App"
-            android:textAlignment="center"
-            android:gravity="center"
-            android:textSize="48dp"
+
+        <ImageView
+            android:layout_width="251dp"
+            android:layout_height="337dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/pacifico"
             android:gravity="center"
-            android:text="blalalalalalalalalalalalalallalalalalalallalala"
+            android:text="Dapoer Mamiku"
             android:textAlignment="center"
-            android:textSize="16dp" />
+            android:textColor="@color/md_theme_light_onTertiary"
+            android:textSize="42dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:text="jagonya masakan rumahan"
+            android:textAlignment="center"
+            android:textColor="@color/md_theme_light_tertiaryContainer"
+            android:textSize="24dp" />
 
     </LinearLayout>
 
@@ -43,6 +65,8 @@
             android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
             android:layout_weight="1"
             android:layout_margin="4dp"
             android:text="LOGIN" />
@@ -51,6 +75,8 @@
             android:id="@+id/btnRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
             android:layout_weight="1"
             android:layout_margin="4dp"
             android:backgroundTint="@color/abc_secondary_text_material_light"
